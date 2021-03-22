@@ -10,6 +10,11 @@ p.fullname {
     font-weight: bold;
 }
 
+h2.CryptoHeader {
+    font-size: 30px;
+    font-family: "Arial";
+    padding: 25px;
+}
 p.BodyParagraph {
     font-size: 20px;
     font-family: "Arial";
@@ -21,6 +26,13 @@ a.ValenciaLink {
     font-family: "Arial";
     color: white;
     padding: 10px;
+}
+
+a.CryptoLink {
+    font-size: 15px;
+    font-family: "Arial";
+    color: black;
+    padding-left: 50px;
 }
 
 .footer {
@@ -57,3 +69,4 @@ footer {
     width: 500px;
     overflow: scroll;
 }
+
