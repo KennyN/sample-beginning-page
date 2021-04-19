@@ -1,0 +1,91 @@
+div.body-container {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+
+}
+
+div.profile-container {
+    width: 600px;
+    height: 750px;
+    background-color: rgb(68, 81, 99);
+    border: 3px solid rgb(44, 44, 44);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+
+h2.retro-head {
+    font-family: Roboto Mono;
+    font-size: 30px;
+    color: white; 
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+p.retro-text {
+    font-family: Roboto Mono;
+    font-style: thin;
+    font-size: 15px;
+    color: white; 
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(44, 44, 44);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Roboto Mono;
+  }
+  
+  li a:hover {
+    background-color: rgb(157, 156, 192);
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    font-family: Roboto Mono;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 90%;
+    padding: 5px 0;
+  
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .nyan-img {
+    margin-left: 30%; 
+    width: 300px; 
+    height: auto
+  }
