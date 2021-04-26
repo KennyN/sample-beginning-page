@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Kenny's site</title>
+    </head>
+    <body>
+        <form>
+            <input type="number" id="valueX" name="valueX" placeholder="Enter X value">
+            <input type="number" id="valueY" name="valueY" placeholder="Enter Y value">
+        </form>
+        <button onclick="doTheThing()">Submit</button>
+
+        <p id = "sum"></p>
+        <p id = "product"></p>
+        <p id = "largest"></p>
+
+        <script>
+            function doTheThing() {
+                let x = parseInt(document.getElementById("valueX").value)
+                let y = parseInt(document.getElementById("valueY").value)
+            
+                console.log(`This is the sum: ${x + y}`);
+                let sum = x + y;
+                document.getElementById("sum").innerHTML = `The sum of x and y is ${sum}`;
+            
+                console.log(`This is the product: ${x * y}`);
+                let product = x * y;
+                document.getElementById("product").innerHTML = `The product of x and y is ${product}`;
+            
+                if (x > y) {
+                    console.log(`X is larger than Y`);
+                    document.getElementById("largest").innerHTML = "X is larger than Y";
+                } else if (y > x) {
+                    console.log(`Y is larger than X`);
+                    document.getElementById("largest").innerHTML = "Y is larger than X";
+                } else {
+                    console.log("equal");
+                    document.getElementById("largest").innerHTML = "Both are equal";
+                }
+            }
+            
+        </script>
+    </body>
+</html>
