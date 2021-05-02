@@ -1,28 +1,80 @@
 <!DOCTYPE html>
 <html lang = "en">
-    <title>Kenny's site</title>
     <head>
+        <title>Luna Software</title>
+        <link rel="shortcut icon" type="image/jpg" href="assets/luna.png"/>
+        <link rel="shortcut icon" type="image/jpg" href="assets/img/luna.png"/>
+        <link rel = "StyleSheet" type = "text/css" href = "css/home.css">
         <link rel = "StyleSheet" type = "text/css" href = "css/stylesheet.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+        <!-- Internal Style Sheet -->
+        <style>
+            body {
+                background-image: url("https://images.creativemarket.com/0.1.0/ps/6987242/1820/1138/m1/fpnw/wm0/2-.jpg?1568806364&s=f1b9f86dfc71470483f980a9a49e7763");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: 100vh;
+                width: 100vw;
+                margin: 0;
+            }
+        </style>
     </head>
     <body>
-        <p class = "fullname">Kenny Nguyen</p>
-        <p class = "BodyParagraph">
-            Welcome to my first webpage for this class! I guess I should start putting down some stuff about me. I'm 20 years old and I love learning new things and design. I used to do a lot of web design back in high school but I believe taking this class
-             can help me remember since I want to look into building applications via Electron since everything is rendered in a browser and uses html/css/js. I have a lot of graphic design experiene so hopefully I'll be able to integrate that into my work here.
-        </p>
+    <section>
+        <div class="body-container">
+            <br>
+            <br>
+            <div class="profile-container">
+                <nav>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="https://online.valenciacollege.edu">Canvas</a></li>
+                    <li><a href="https://atlas.valenciacollege.edu/">Atlas</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Web Assignments 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="form.html">Form assignment</a>
+                          <a href="strawberry.html">Strawberry assignment</a>
+                          <a href="js.html">JS assignment</a>
+                          <a href="tables.html">Tables assignment</a>
+                          <a href="links.html">Links assignment</a>
+                          <a href="legacyhome.html">Legacy Home</a>
+                        </div>
+                      </div> 
+                  </ul>
+                </nav>
+                  <div style="padding-left: 25px; padding-top: 25px;">
+                    <img style="border-radius: 50px;" src="assets/img/luna.png" width=100px height=100px>
+                  </div>
+                  <h2 class = "retro-head">Welcome to Luna</h2>
+                  <p class = "retro-text">Hi, and welome to Luna. Luna is meant for students and provides many different tools to help students succeed in school. With a ton a different services including homework help, study sessions, automated homework assistance, and much more.
+                  </p>
 
-        <p class = "BodyParagraph">
-            Here is some fun things to know about me! I like plaing videos games and graphic design. I've been designing stuff since I was about 14 when I designed YouTube thumbnails for fun. Gradually I got better and now I can do it to a point where I can make
-             some money here and there. I really enjoy coding as well as my first programming language I learned was Javascript followed by Python. I'm sure I'll be able to use some JS later in this class. 
-        </p>
+                  <h2 class = "retro-head">About Me</h2>
+                  <p class = "retro-text">As a 20 year old college student I know the feeling of struggling to find people to study with so this is why I created Luna. I started programming when I was about 15 and I love doing it! I know JS, Python, and C. I've worked on animatronics and other robotics projects and won #2 in the nation for the TSA animatronics competition. I also love nyan cat!
+                  </p>
 
-        <div class = "search-container">
-            <input type="text" placeholder = "This input box does nothing!" id="searchbox">
-            <button class = "pretty-button">Press me!</button>
+                  <iframe width="450" height="300" style = "padding-left: 75px;" src="https://www.youtube.com/embed/QH2-TGUlwu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                <div class="tooltip">
+                <img src="https://www.storybench.org/wp-content/uploads/2015/05/NYAN_CAT.gif" class="nyan-img" alt="Nyan cat">
+                <span class="tooltiptext">Come join the Discord</span>
+                </div>
+                <aside>
+                    <p>Come join our Discord Community</p>
+                    <button class="button button1" onclick="window.location.href='https://discord.gg/PFqZNftu'">Join</button>
+                </aside>
+                <footer class = "footer2">
+                    <p style = "font-family: Roboto Mono; color: white;">Copyright 2020-2021 by Luna Software All Rights Reserved.</p>
+                </footer>
+            </div>
         </div>
-
-        <footer class = "footer">
-            <a class = "ValenciaLink" href = "https://valenciacollege.edu">Valencia College</a>
-        </footer>
+    </section>
+        <script src="app.js"></script>
+        <script src="particles.js"></script>
     </body>
 </html>

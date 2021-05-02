@@ -1,2 +1,2 @@
-# sample-beginning-page
-for web class lol
+# final
+for web class

@@ -5,33 +5,44 @@ body {
 
 p.fullname {
     font-size: 40px;
-    font-family: "Arial";
+    font-family: "Roboto Mono";
     text-align: center;
     font-weight: bold;
+    color: white;
 }
 
 h2.CryptoHeader {
     font-size: 30px;
-    font-family: "Arial";
+    font-family: "Roboto Mono";
     padding: 25px;
+    color: white;
 }
+
+h2.formHeader {
+    font-size: 30px;
+    font-family: "Roboto Mono";
+    padding: 25px;
+    color: black;
+}
+
 p.BodyParagraph {
     font-size: 20px;
-    font-family: "Arial";
+    font-family: "Roboto Mono";
     padding: 25px;
+    color: white;
 }
 
 a.ValenciaLink {
     font-size: 20px;
-    font-family: "Arial";
+    font-family: "Roboto Mono";
     color: white;
     padding: 10px;
 }
 
 a.CryptoLink {
     font-size: 15px;
-    font-family: "Arial";
-    color: black;
+    font-family: "Roboto Mono";
+    color: white;
     padding-left: 50px;
 }
 
@@ -71,9 +82,9 @@ footer {
 }
 
 table, th, td {
-    font-family: "Arial";
+    font-family: "Roboto Mono";
     border: 1px solid rgb(129, 129, 129);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 15px;
     border-spacing: 5px;
   }
@@ -86,7 +97,8 @@ div.formbody {
     padding: 10px;
     height: 450px;
     width: 500px;
-    font-family: "Arial";
+    font-family: "Roboto Mono";
     border: 1px solid rgb(153, 153, 153);
     border-radius: 10px;
+    overflow: scroll;
 }
